@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from statsmodels.tsa.arima.model import ARIMA
 
-# Sample data (replace this with your actual supermarket sales data)
+# Sample data
 data = {
     'Date': pd.date_range(start='2023-01-01', periods=12, freq='M'),
     'Sales': [100, 110, 120, 115, 125, 130, 140, 135, 145, 150, 160, 155]
