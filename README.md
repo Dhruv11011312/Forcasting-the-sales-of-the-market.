@@ -15,7 +15,7 @@ df = pd.DataFrame(data)
 # Set 'Date' column as the index
 df.set_index('Date', inplace=True)
 
-# Plot the original sales data
+# Plot the  sales data
 plt.figure(figsize=(10, 6))
 plt.plot(df.index, df['Sales'], marker='o')
 plt.xlabel('Date')
